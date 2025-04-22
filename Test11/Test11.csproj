@@ -16,4 +16,14 @@
 		</None>
 	</ItemGroup>
 
+	<ItemGroup>
+		<Content Remove="con1\c.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="con1\c.cs">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
 </Project>
