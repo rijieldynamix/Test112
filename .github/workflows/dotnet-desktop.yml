@@ -14,7 +14,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./EHR.Server
+        working-directory: ./Test11
 
     steps:
     - uses: actions/checkout@v4
