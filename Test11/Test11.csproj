@@ -7,11 +7,11 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<Content Remove="Config\auth0_config.json" />
+		<Content Remove="Conf32131\auth01_config.json" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Include="Config\auth0_config.json">
+		<None Include="Conf32131\auth01_config.json">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
